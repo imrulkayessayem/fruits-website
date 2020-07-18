@@ -1,0 +1,280 @@
+/* Reset */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* utility */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+nav {
+  background: green;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: green;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: darkgreen;
+}
+
+.text-primary {
+  color: green;
+}
+
+/* Nav */
+
+nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding-top: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 20px;
+}
+
+/* showcase */
+
+#showcase {
+  background: url('../img/bruna-branco-7r1HxvVC7AY-unsplash.jpg') no-repeat center center/cover;
+  height: 800px;
+  text-align: center;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 70px;
+  line-height: 30px;
+}
+
+#showcase .showcase-content h1 {
+  display: inline;
+  font-size: 70px;
+  margin-bottom: 60px;
+}
+
+#showcase .showcase-content p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#showcase .btn {
+  background: #fff;
+  color: orange;
+  padding: 20px 30px;
+  padding-bottom: 20px;
+  outline: none;
+  border: none;
+}
+
+#showcase .btn:hover {
+  background: orange;
+  color: #fff;
+}
+
+
+
+/* info */
+
+#info {
+  height: 600px;
+  margin-top: 10px auto;
+  background-color: orange;
+}
+
+#info .info-img {
+  float: left;
+  width: 50%;
+  background: url(../img/brigitte-tohm-J91jD9u6Nk4-unsplash.jpg) no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#info .info-content {
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+  line-height: 30px;
+}
+
+#info .info-content h2 {
+  font-size: 60px;
+  color: rgb(245, 77, 77);
+}
+
+#info .info-content p {
+  margin-bottom: 40px;
+}
+
+.btn-2 {
+  padding: 20px 30px; 
+  background: orange;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background: white;
+  color: orange;
+}
+
+/* info 2 */
+
+#info-2 {
+  height: 600px;
+  margin-top: 10px;
+  background: red;
+}
+
+#info-2 .info-img-2 {
+  float: right;
+  width: 50%;
+  background: url('../img/inha-pauliuchenka-j2qY5wJma88-unsplash.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#info-2 .info-content-2 {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+}
+
+#info-2 .info-content-2 h2 {
+  font-size: 50px;
+  color: orange;
+}
+
+#info-2 .info-content-2 p {
+  margin-bottom: 40px;
+}
+
+.btn-3 {
+  padding: 20px 30px;
+  background: red;
+  border: 1px solid white;
+  color: orange;
+  cursor: pointer;
+}
+
+.btn-3:hover {
+  background: orange;
+  color: red;
+  border: 1px solid red;
+}
+
+/* info-3 */
+
+#info-3 {
+  height: 600px;
+  margin-top: 10px;
+  background: orange;
+}
+
+#info-3 .info-img-3 {
+  float: left;
+  width: 50%;
+  background: url('../img/theme-inn-yi1YB_FubH8-unsplash.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#info-3 .info-content-3 {
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+#info-3 .info-content-3 h2 {
+  font-size: 50px;
+  color: rgb(255, 75, 105);
+}
+
+
+#info-3 .info-content-3 p {
+  margin-bottom: 40px;
+}
+
+.btn-3 {
+  outline: none;
+}
+
+/* Features */
+
+.box {
+  float: none;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  margin-left: 33%;
+  border: 5px solid #444;
+  margin-top: 7%;
+  transition: 2s;
+  margin-bottom: 20px;
+}
+
+.box:hover {
+   background: #f4f4f4;
+   border: 5px #ffffff solid;
+}
+
+#features .box i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+
+/* Footer */
+
+.main-footer {
+
+}
+
+#main-footer div {
+  background: #444;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}

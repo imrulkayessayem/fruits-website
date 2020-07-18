@@ -1,0 +1,162 @@
+/* Reset */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* utility */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+nav {
+  background: green;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: green;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: darkgreen;
+}
+
+.text-primary {
+  color: green;
+}
+
+/* Nav */
+
+nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding-top: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 20px;
+}
+
+
+/* Showcase */
+
+#showcase {
+  margin-top: 100px;
+}
+
+#showcase .content {
+  float: left;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+#showcase .content .img-1 {
+  float: right;
+  width: 100px;
+  height: 400px;
+}
+
+#showcase .content .img-1 .img-side {
+  border-top-left-radius: 20%;
+}
+
+#showcase .content h1 {
+  color: green;
+}
+
+#showcase .content p {
+  color: green;
+}
+
+#showcase .content h1 {
+  font-size: 30px;
+}
+
+#showcase .content .text-primary {
+  color: orange;
+}
+
+/* info */
+
+#info {
+  width: 100%;
+  margin: auto;
+  height: 800px;
+  background: url('https://images.unsplash.com/photo-1570185776734-0356f8d59ab8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80') no-repeat center center/cover;
+  min-height: 100%;
+  text-align: center;
+  border-top: 20px solid #444;
+}
+
+#info .content {
+  background: green;
+  height: 280px;
+  margin-top: 200px;
+  padding: 50px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+
+#info .content img {
+  float: left;
+  display: block;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#info .content h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+/* Footer */
+
+.main-footer {
+
+}
+
+#main-footer div {
+  background: #444;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
