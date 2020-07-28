@@ -1,0 +1,93 @@
+nav .logo {
+  float: none;
+  text-align: center;
+}
+
+nav ul, nav ul li {
+  float: none;
+  text-align: center;
+}
+
+nav ul li a {
+  padding: 5px;
+}
+
+/* showcase */
+
+#showcase {
+  margin-bottom: 5px;
+}
+
+/* info */
+
+#info {
+  height: 1000px;
+}
+
+#info .info-img {
+  float: none;
+  height: 50%;
+  width: 100%;
+}
+
+
+#info .info-content {
+  float: none;
+  width: 100%;
+  height: 50%;
+  border-bottom: 0;
+}
+
+#info .info-content p {
+  margin-bottom: 0px;
+}
+
+/* info 2*/
+
+#info-2 {
+  height: 1000px;
+}
+
+
+#info-2 .info-img-2 {
+  float: none;
+  width: 100%;
+  height: 50%;
+}
+
+
+#info-2 .info-content-2 {
+  float: none;
+  width: 100%;
+  height: 50%;
+}
+
+#info-2 .info-content-2 p {
+  margin-bottom: 10px;
+}
+
+/* info 3 */
+
+#info-3 {
+  height: 1050px;
+}
+
+#info-3 .info-img-3 {
+  float: none;
+  width: 100%;
+  height: 50%;
+}
+
+
+#info-3 .info-content-3 {
+  float: none;
+  width: 100%;
+  height: 50%;
+}
+
+/* Fetures */
+
+.box {
+  width: 100%;
+  margin-left: 0;
+}

@@ -1,0 +1,14 @@
+#showcase .content .img-showcase {
+  float: none;
+  width: 100%;
+  height: 50%;
+  margin-left: -20px;
+}
+
+#showcase .content .content-1 {
+  float: none;
+  width: 100%;
+  height: 50%;
+  color: #444;
+}
+
