@@ -45,6 +45,7 @@ nav {
 
 .btn:hover {
   background: darkgreen;
+  transition: 1s;
 }
 
 .text-primary {
@@ -112,6 +113,7 @@ nav ul li a {
 #showcase .btn:hover {
   background: orange;
   color: #fff;
+  transition: 1s;
 }
 
 
@@ -160,7 +162,7 @@ nav ul li a {
 
 .btn-2:hover {
   background: white;
-  color: orange;
+  color: orange;  transition: 1s;
 }
 
 /* info 2 */
@@ -208,6 +210,7 @@ nav ul li a {
   background: orange;
   color: red;
   border: 1px solid red;
+  transition: 1s;
 }
 
 /* info-3 */
@@ -245,8 +248,21 @@ nav ul li a {
   margin-bottom: 10px;
 }
 
-.btn-3 {
+.btn-4 {
   outline: none;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.btn-4:hover {
+  background-color: red;
+  color: #fff;
+  transition: 1s;
+  border: none;
 }
 
 /* Features */

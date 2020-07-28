@@ -109,6 +109,14 @@ nav ul li a {
   border: 1.6px solid green;
   outline: none;
   background: none;
+  color: rgb(83, 0, 0);
+}
+
+#contact-form input:hover, 
+#contact-form textarea:hover {
+  background-color: rgba(255, 255, 255, 0.61);
+  color: #000;
+  transition: 1s;
 }
 
 #contact-form input:focus, 
@@ -124,6 +132,11 @@ nav ul li a {
   background: none;
   outline: none;
   border: 1px solid green;
+}
+
+#contact-form button:hover {
+ background-color: rgba(255, 255, 255, 0.61);
+  transition: 1s;
 }
 
 #contact-form label {
